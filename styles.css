@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dcdcdc/*#f4f4f4*/;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#input-section,
+#preview-image,
+#output-section {
+    background-color: #696969/*rgb(255, 255, 255)*/;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+input,
+#download-link,
+button,
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 90px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#image-preview,
+#qr-preview,
+#custom-qr {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#download-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#download-link:hover,
+#generate-link:hover {
+    background-color: #45a049;
+}
+
+#download-link {
+    width: 140px;
+    max-width: 40%;
+    height: auto;
+    background-color: #dc143c;
+    color: black;
+    margin-left: 110px;
+    margin-right: 0;
+    font-size: medium;
+    text-align: center;
+}
+
+#generate-link {
+    width: 175px;
+    max-width: 100%;
+    height: auto;
+    background-color: #dc143c;
+    color: black;
+    margin-left: auto;
+    margin-right: 30%;
+    font-size: medium;
+    text-align: center;
+}
+
+
+#contenedor {
+    border-color: black;
+    border-radius: 5px;
+    border-width: 5pxpx;
+    border-style: groove;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #d3d3d3;
+
+}
+
+#titulo {
+    max-width: 100%;
+    height: auto;
+}
