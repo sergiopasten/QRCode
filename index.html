@@ -36,6 +36,8 @@
         <div>
             <label>Previsualización del código QR:</label>
             <img id="qr-preview" alt=<img src="icono.ico">
+            <label id="opacity-label" for="qr-opacity">Ajusta la opacidad del código QR (0.6 <-> 0.9):</label>
+            <input type="range" id="qr-opacity" min="0.6" max="0.9" step="0.1" value="0.6" oninput="updateQRPreview()">
         </div>
 
         <!-- Sección de código QR generado con imagen de fondo -->
@@ -115,7 +117,7 @@
 
                 // Aplicar la opacidad a la imagen y el código QR (valores constantes)
                 const imageOpacity = 0.9;
-                const qrOpacity = 0.6;
+                const qrOpacity = document.getElementById("qr-opacity").value;
                 context.globalAlpha = imageOpacity;
                 const img = new Image();
                 img.onload = function() {
